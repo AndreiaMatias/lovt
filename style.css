@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Ropa+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Ropa Sans';
+}
+
+header{
+    margin:auto;
+    width: 60%;
+    height: 49px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px 1px grey;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+
+.logo-texto{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 50;
+    
+
+}
+.logo{
+    font-size: 30px;
+    margin-left: 10px;    
+}
+
+.texto{
+    font-size: 10px;
+    width: 40px;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.menu{
+    width:30px;
+    height:auto;
+    padding:10px;
+    flex-grow: 1;
+    position:relative;
+}
+
+body{
+    margin:auto;
+    width: 80%;
+    display: flex;flex-direction: column;
+}
+
+.foto-principal{
+    position:relative;
+    text-align: center;
+    font-size: 25px;
+    color:#ffffff;
+    display: block;
+    margin:auto;
+    width:50%;
+    margin-top: 30px;
+    height: auto;
+    overflow: hidden;
+}
+
+.foto1{
+    transform: scale(1.7);
+}
+
+.botao1{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #8D8D8D;
+}
+
+.botao2{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #8d8d8d;
+}
+
+.fotos-menores{
+    width:50%;
+    margin:auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.foto-m{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    overflow: hidden;
+    margin-top:20px;
+    background-color: #EEEEEE;
+}
+
+.foto-menor{
+    width:100%;
+    height:auto;
+}
+
+.desc-preco{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    margin:10px;
+}
+
+.preco-sit{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+
+}
+
+.preco{
+    font-size: 25px;
+    color: #888888;
+    flex-grow: 30;
+}
+
+.situacao{
+    font-size: 20px;
+    height:23px;
+    width:50px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30%;
+    flex-grow: 1;
+}
+
+#new{
+    background-color: #51D275;
+}
+
+#sale{
+    background-color: #Dc9730;
+}
+
+.new-section{
+    margin: 50px;
+    text-align: center;
+    font-size: 25px;
+    color:#888888;
+}
+
+.img-column{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin:auto;
+}
+
+.img-retangulo{
+    position:relative;
+    text-align: center;
+    color:#ffffff;
+    font-size: 25px;
+    margin-bottom: 30px;
+    padding:0;
+    transform: scale(1.2);
+    height:auto;
+}
+
+.opaca{
+    opacity: 0.7;
+}
+
+.texto-centralizado{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+footer{
+    max-width:100%;
+    width:60%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+footer p{
+    margin-bottom:5px;
+}
+
+.mapa{
+    max-width:100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    flex-grow: 6;
+}
+
+.contato{
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.midias-sociais{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
